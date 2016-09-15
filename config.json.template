@@ -15,6 +15,7 @@
 			"/usr/bin/etcd"
 		],
 		"env": [
+                        "ETCD_DATA_DIR=/var/lib/etcd-container/${NAME}.etcd",
 			"NAME=$NAME",
 			"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
 			"TERM=xterm"
